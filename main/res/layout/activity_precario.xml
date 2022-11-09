@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Precario"
+    android:background="@drawable/backgroundmenus">
+
+
+    <TextView
+        android:id="@+id/tview1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="Carro de 2 portas -> 3,5€/h
+\nCarro de 4 portas -> 4,0€/h
+\nMotociclo -> 2,5€/h
+\nTrotinete -> 1,2€/h
+\n\nDescontos:\nAté 1 hora - 5%
+\n2 a 5h59 horas - 7%
+\n6 a 10h59 horas - 10%
+\n11 a 16h59 horas - 12 %
+\n17 a 24 horas - 15 %
+\nMais de 24 horas - 20%"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        />
+</LinearLayout>

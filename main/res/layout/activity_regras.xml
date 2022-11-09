@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regras"
+    android:background="@drawable/backgroundmenus">
+
+    <TextView
+        android:id="@+id/tview1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="A aplicação permite, entre outros, realizar o aluguer de veículos. O utilizador
+poderá desfrutra das funcionalidades principais a partir do menu inferior. Se pretender mudar a palavra passe,
+realizar o Log Out ou aceder a informação relacionada com o projeto e a aplicação em si, poderá fazê-lo
+a partir do menu lateral."
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

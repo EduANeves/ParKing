@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ParKing</string>
+    <string name="title_activity_mostrar_mapa">Mostrar_Mapa_Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tipo_veiculo">
+        <item>Carro para 2 pessoas</item>
+        <item>Carro para 4 pessoas</item>
+        <item>Motociclo</item>
+        <item>Trotinete</item>
+    </string-array>
+</resources>

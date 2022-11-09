@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/veiculosDisponiveis" android:title="Veículos" android:icon="@drawable/ic_car_disp" />
+    <item android:id="@+id/pontosRecolhaProx" android:title="PR Prox" android:icon="@drawable/ic_pontos_prox"/>
+    <item android:id="@+id/modalidadeAluguer" android:title="Modalidade" android:icon="@drawable/ic_modalidade"/>
+    <item android:id="@+id/pontosPartilhaFav" android:title="PP Fav" android:icon="@drawable/ic_fav"/>
+    <item android:id="@+id/notificacoes" android:title="Notificações" android:icon="@drawable/ic_notificacoes"/>
+</menu>

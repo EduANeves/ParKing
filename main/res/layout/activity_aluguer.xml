@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Aluguer"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/thoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ponto de Recolha"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"/>
+
+    <Spinner
+        android:id="@+id/sponto"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Ponto de recolha"
+        android:layout_margin="16dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="201dp"
+        android:background="@drawable/spinner_style"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de veiculo"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"/>
+
+    <Spinner
+        android:id="@+id/stipo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Tipo de veiculo"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="201dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/spinner_style"/>
+
+    <Button
+        android:id="@+id/bta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veículo:"
+        android:visibility="invisible" />
+
+    <Spinner
+        android:id="@+id/sveiculo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:visibility="invisible"
+        android:layout_margin="16dp"
+        android:background="@drawable/spinner_style"/>
+
+    <Button
+        android:id="@+id/btavancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btvoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Conta"
+    tools:layout_editor_absoluteX="50dp"
+    tools:layout_editor_absoluteY="62dp"
+    android:background="@drawable/backgroundmenus">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altere a sua password:"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="154dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="130dp"/>
+
+    <EditText
+        android:id="@+id/epass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nova password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="188dp"
+        android:layout_marginStart="75dp"
+        />
+
+
+    <EditText
+        android:id="@+id/epass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirmar password"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="298dp"
+        android:layout_marginStart="75dp"
+        />
+
+    <Button
+        android:id="@+id/balterar"
+        android:layout_width="209dp"
+        android:layout_height="42dp"
+        android:text="Alterar"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="370dp"
+        android:layout_marginStart="75dp"
+        />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="443dp"
+        android:layout_marginStart="75dp"
+        />
+</LinearLayout>

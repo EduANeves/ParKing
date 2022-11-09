@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/veiculosDisponiveis"
+    android:clickable="true">
+    <fragment
+        android:id="@+id/veiculosDisponiveis"
+        android:name="pt.ulp.parking_projeto_pdm.VeiculosDisponiveis"
+        android:label="Parking"
+        tools:layout="@layout/activity_menu" />
+    <fragment
+        android:id="@+id/pontosRecolhaProx"
+        android:name="pt.ulp.parking_projeto_pdm.PontosRecolhaProx"
+        android:label="fragment_pontos_recolha_prox"
+        tools:layout="@layout/fragment_pontos_recolha_prox" />
+    <fragment
+        android:id="@+id/modalidadeAluguer"
+        android:name="pt.ulp.parking_projeto_pdm.ModalidadeAluguer"
+        android:label="fragment_modalidade_aluguer"
+        tools:layout="@layout/fragment_modalidade_aluguer" />
+    <fragment
+        android:id="@+id/pontosPartilhaFav"
+        android:name="pt.ulp.parking_projeto_pdm.PontosPartilhaFav"
+        android:label="fragment_pontos_partilha_fav"
+        tools:layout="@layout/fragment_pontos_partilha_fav" />
+    <fragment
+        android:id="@+id/notificacoes"
+        android:name="pt.ulp.parking_projeto_pdm.Notificacoes"
+        android:label="fragment_notificacoes"
+        tools:layout="@layout/fragment_notificacoes" />
+</navigation>

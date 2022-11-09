@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottomsheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/whitebackground"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textVD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/texto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-56dp"
+                android:layout_marginRight="10dp"
+                android:padding="10sp"
+                android:paddingLeft="0dp"
+                android:text="Pontos de Partida e Recolha"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/textVD"
+                android:background="@color/purple_700"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toLeftOf="@id/textVD"
+                android:background="@color/purple_700"
+                />
+
+            <TextView
+                android:id="@+id/texto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="172dp"
+                android:layout_marginRight="10dp"
+                android:padding="10sp"
+                android:paddingLeft="0dp"
+                android:text="Visualize os Pontos de Partilha e Pontos de Recolha existentes"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/bt_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/texto"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="114dp"
+                android:text="Verificar Locais" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

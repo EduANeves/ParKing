@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/precario"
+        android:icon="@drawable/ic_precario"
+        android:title="Preçário"/>
+    <item
+        android:id="@+id/regras"
+        android:icon="@drawable/ic_rules"
+        android:title="Regras de Utilização"/>
+    </group>
+
+    <item android:title="Conta">
+        <menu>
+            <item
+                android:id="@+id/Conta"
+                android:icon="@drawable/ic_conta"
+                android:title="Conta"/>
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log Out"/>
+        </menu>
+
+    </item>
+</menu>

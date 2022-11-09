@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/tUser"
+        android:layout_width="259dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_username_icon"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <EditText
+        android:id="@+id/tPassword"
+        android:layout_width="259dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_password_icon"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/btlog"
+        android:layout_width="113dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/tregistar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:text="Registe-se "
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+</LinearLayout>
